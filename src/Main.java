@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class Main {
 
-
     public static void main(String[] args) throws Exception {
         TaskService taskService = new TaskService();
         try (Scanner scanner = new Scanner(System.in)) {
